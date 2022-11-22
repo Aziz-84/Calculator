@@ -1,12 +1,12 @@
 const display = document.querySelector(".display");
 const AC = document.querySelector(".AC");
-const toggle = document.querySelector(".toggle");
+const CE = document.querySelector(".CE");
 const percent = document.querySelector(".percent");
 const divide = document.querySelector(".divide");
 const seven = document.querySelector(".seven");
 const eight = document.querySelector(".eight");
 const nine = document.querySelector(".nine");
-const asterisk = document.querySelector(".asterisk");
+const multi = document.querySelector(".multi");
 const four = document.querySelector(".four");
 const five = document.querySelector(".five");
 const six = document.querySelector(".six");
@@ -66,7 +66,7 @@ plus.addEventListener("click", () => {
   plusBtn = true;
   btnPressed = "+";
 });
-asterisk.addEventListener("click", () => {
+multi.addEventListener("click", () => {
   plusBtn = true;
   btnPressed = "*";
 });
